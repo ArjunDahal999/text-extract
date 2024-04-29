@@ -20,7 +20,7 @@ async def extract_emails_from_image(image_url: str):
     response = requests.get(image_url)
     img = cv2.imdecode(np.frombuffer(response.content, np.uint8), cv2.IMREAD_COLOR)
 
-    reader = easyocr.Reader(['en'], gpu=False)
+    reader = easyocr.Reader(['en'], gpu=True)
     text = []
     text_ = reader.readtext(img)
 
