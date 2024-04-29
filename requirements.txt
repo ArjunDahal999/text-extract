@@ -1,6 +1,7 @@
-easyocr
-matplotlib
-opencv-python-headless
-numpy
-uvicorn
-fastapi
+easyocr: 1.6.2
+matplotlib: 3.7.1
+opencv-python-headless: 4.7.0.72
+numpy: 1.24.2
+uvicorn: 0.21.1
+fastapi: 0.95.0
+fastapi-socketio: 0.0.10
