@@ -1,7 +1,7 @@
-easyocr== 1.6.2
-matplotlib==3.7.1
+easyocr
+matplotlib
 opencv-python
-numpy== 1.24.2
-uvicorn== 0.21.1
-fastapi== 0.95.0
+numpy
+uvicorn
+fastapi
 fastapi-socketio
